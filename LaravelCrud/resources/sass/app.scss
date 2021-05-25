@@ -1,6 +1,106 @@
-.container{
-    height: 100vh;
-    width: 100%;
-    background-color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
     color: gold;
+    text-align: center;
+    padding-bottom: 50px;
+    a{
+        text-decoration: none;
+        color: gold;
+        display: flex;
+        justify-content: center;
+        .button{
+            background-color: red;
+            padding: 20px 40px;
+            border-radius: 10px;
+            width: 250px;
+            margin-top: 50px;
+            font-weight: bold;
+        }
+        }
+}
+.container{
+   /*  min-height: 100vh; */
+    width: 100%;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    ul{
+        list-style-type: none;
+        margin-top: 50px;
+        li{
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: gold;
+            }
+        }
+    }
+}
+
+.ospiti{
+
+    min-height: 637px;
+    padding-top: 100px;
+    padding-left: 15px;
+
+    .datiospiti{
+        margin-top: 50px;
+        h3{
+            padding: 15px 0;
+            color: red;
+        }
+
+    }
+}
+
+.ini{
+
+    text-align: center;
+    color: gold;
+    background-color: black;
+
+
+}
+
+form{
+    background-color: black;
+    min-height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    label{
+        color: gold;
+        line-height: 50px;
+
+    }
+    input{
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    button{
+        margin-top: 30px;
+        background-color: red;
+        border-radius: 10px;
+        width: 100px;
+        padding: 20px 0;
+        font-weight: bold;
+        color: gold;
+
+    }
+}
+footer{
+    background-color: black;
+    color: gold;
+    height: 105px;
+    text-align: center;
+    padding-top: 50px;
 }

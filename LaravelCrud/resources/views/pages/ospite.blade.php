@@ -2,10 +2,26 @@
 
 @section('content')
 
-    <h1>{{$ospite -> name}}</h1>
-    <h3>{{$ospite -> lastname}}</h3>
-    <h3>{{$ospite -> date_of_birth}}</h3>
-    <h3>{{$ospite -> document_type}}</h3>
-    <h3>{{$ospite -> document_number}}</h3>
+    <div class="ospiti">
+
+
+
+        <h1>{{$ospite -> name}}</h1>
+        <h1>{{$ospite -> lastname}}</h1>
+
+        <div class="datiospiti">
+
+            <h3>Data di nascita : {{$ospite -> date_of_birth}}</h3>
+            <h3>Documento rilasciato : {{$ospite -> document_type}}</h3>
+            <h3>N°Documento : {{$ospite -> document_number}}</h3>
+
+
+        </div>
+
+
+
+    </div>
+
+
 
 @endsection
